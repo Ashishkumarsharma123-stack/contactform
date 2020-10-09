@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    width:70%;
+    height:40%;
+    margin-left:15%;
+}
+.hero-text {
+    background-image:linear-gradient(rgba(51, 51, 51, 0.7),rgba(51, 51, 51, 0.7)) , url(bck.jpg.jpg);
+    background-size: cover;
+    background-position:bottom;
+    height:40vh;
+    position: relative;
+    
+}
+/*relative and absolute se change hoga "h1-hero text" upr se niche bs*/
+ h1 {
+     text-transform:capitalize;
+     color:white;
+    font-size: 40px;
+     font-weight: 100;
+     width:100%;
+     position: absolute;
+     top:40%;
+     text-align: center;
+    
+}
+span{
+    font-size:25px;
+}
+
+
+/*-----------------------------  form--------------------*/
+
+.section-form {
+    padding:30px 0;
+    background-color:grey;
+    width:70%;
+    margin-left:15%;
+}
+
+.contact-form {
+    width:80%;
+    margin-left:10%;
+    text-align: center;
+}
+
+label{
+    float:right;
+    padding:5px 15px 5px;;
+}
+
+
+input,
+select{
+    width:100%;
+    padding:10px;
+}
+textarea{
+    height:130px;
+    width:150%;
+}
+
+.btn{
+    display:inline-block;
+    color:white;
+    padding:10px;
+    text-decoration:none;
+    background-color:green;
+    border-radius: 20px;
+    letter-spacing:2px;
+    margin-left:100px;
+    margin-top:30px;
+}
+
+/*----- used this arrow using css-tricks glyphs-----*/
+.btn:after{
+    display:inline-block;
+    content:"\00bb";
+    width:15px;
+    height:15px;
+
+}
+.btn:hover{
+    transform: scale(1.10);
+}
+
+
+*:focus{outline: none;}
+
+
+
+
